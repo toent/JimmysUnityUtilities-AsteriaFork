@@ -64,9 +64,24 @@ namespace JimmysUnityUtilities.TextTextures
         public TMP_SpriteAsset spriteAsset { get; set; }
         public TMP_StyleSheet styleSheet { get; set; }
 
-        public List<UnityEngine.TextCore.OTL_FeatureTag> fontFeatures { get; set; }
+        public List<OTL_FeatureTag> fontFeatures { get; set; }
         public bool extraPadding { get; set; }
 
+        private enum TextWrappingModes : int
+        {
+            Normal,
+            NoWrap,
+            PreserveWhitespace,
+            PreserveWhitespaceNoWrap
+        }
+
+        private enum OTL_FeatureTag : uint
+        {
+            kern,
+            liga,
+            mark,
+            mkmk
+        }
 
         public static TmpObjectVisualData CreateFrom(TMP_Text source)
         {
