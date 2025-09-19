@@ -5,7 +5,7 @@ I've released everything in here as public domain, so feel free to rip out anyth
 
 ## Installation
 
-You can install JUU using the Unity Package Manager. In the top left of the UPM window, hit the "plus" button and click "add package from git URL". Then, enter `https://github.com/JimmyCushnie/JimmysUnityUtilities.git`.
+You can install JUU using the Unity Package Manager. In the top left of the UPM window, hit the "plus" button and click "add package from git URL". Then, enter `https://github.com/toent/JimmysUnityUtilities-AsteriaFork.git`.
 
 You can also just download/clone the repo and stick it in your project's `Assets` or `Packages` folder.
 
