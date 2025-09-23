@@ -70,7 +70,7 @@ namespace JimmysUnityUtilities
             }
         }
         
-        public Texture2D GetDominantTexture(int TextureIndex) => ThisTerrainData.terrainLayers[TextureIndex].diffuseTexture;
+        public Texture2D GetDominantTexture(int TextureIndex) => TextureIndex != -1 ? ThisTerrainData.terrainLayers[TextureIndex].diffuseTexture : null;
 
     }
 }
